@@ -1,0 +1,41 @@
+# API Keys & Secrets
+.env
+.env.local
+
+# Milvus local database
+milvus_local.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Output & Temporary files
+output/
+logs/
+
+# Evaluation results
+evaluation_results.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large binary files
+weights/
+*.pt
+*.pth
+*.bin
+
+# Gradio
+gradio_cached_examples/
